@@ -41,12 +41,14 @@
         "patterns": [
           "What are your hobbies?",
           "Do you have any hobbies?",
-          "Tell me about your interests"
+          "Tell me about your interests",
+          "What is it that you consider a hobby?"  
         ],
         "responses": [
           "As an AI, I don't have hobbies like humans, but I enjoy helping and learning from users like you!",
           "I'm here to assist and chat with you, so feel free to ask me anything!",
-          "My main focus is providing useful information and engaging in conversation with you."
+          "My main focus is providing useful information and engaging in conversation with you.",
+          "Well, I don't have any hobbies in the human sense, but, I do enjoy helping and chatting with you!"  
         ]
       },
       {
@@ -54,12 +56,14 @@
         "patterns": [
           "What's your favorite music genre?",
           "Tell me a song recommendation",
-          "Who's your favorite artist?"
+          "Who's your favorite artist?",
+          "What is one of the trending songs?"  
         ],
         "responses": [
           "As an AI, I don't have personal preferences, but I love all kinds of music!",
           "Here's a great song recommendation: 'Shape of You' by Ed Sheeran.",
-          "I don't have a favorite artist, but I can suggest music based on your taste."
+          "I don't have a favorite artist, but I can suggest music based on your taste.",
+          "One song that is trending is 'Espresso' by Sabrina Carpenter."  
         ]
       },
       {
@@ -67,12 +71,14 @@
         "patterns": [
           "What's a good movie to watch?",
           "Any movie recommendations?",
-          "Tell me your favorite movie"
+          "Tell me your favorite movie",
+          "Tell me a good TV Show to watch" 
         ],
         "responses": [
           "For action fans, I recommend 'The Dark Knight'.",
           "If you enjoy comedy, 'The Hangover' is a hilarious movie to watch.",
-          "My favorite movie is 'The Shawshank Redemption', it's a classic!"
+          "My favorite movie is 'The Shawshank Redemption', it's a classic!",
+          "You can watch 'Friends', it is a really famous wholesome show!"  
         ]
       },
       {
@@ -127,12 +133,14 @@
         "patterns": [
           "What is 15 + 7?",
           "Calculate 42 - 18.",
-          "What's the result of 8 multiplied by 6?"
+          "What's the result of 8 multiplied by 6?",
+          "Simplify: 133 – 19 × 2 + 15."  
         ],
         "responses": [
           "The sum of 15 and 7 is 22.",
           "42 minus 18 equals 24.",
-          "8 multiplied by 6 is 48."
+          "8 multiplied by 6 is 48.",
+          "133 – 19 × 2 + 15 = 110."  
         ]
       },
       {
@@ -140,12 +148,14 @@
         "patterns": [
           "What's the formula for the area of a circle?",
           "How do I calculate the volume of a cylinder?",
-          "Tell me the equation for quadratic functions."
+          "Tell me the equation for quadratic functions.",
+          "Algebraic formula for (a+b)^2?"  
         ],
         "responses": [
           "The formula for the area of a circle is A = π * r^2, where 'r' is the radius.",
           "To calculate the volume of a cylinder, use V = π * r^2 * h, where 'r' is the radius and 'h' is the height.",
-          "The equation for quadratic functions is y = ax^2 + bx + c, where 'a', 'b', and 'c' are constants."
+          "The equation for quadratic functions is y = ax^2 + bx + c, where 'a', 'b', and 'c' are constants.",
+          "The algebraic formula for (a+b)^2 is a^2 + 2ab + b^2 ."  
         ]
       },
       {
@@ -153,12 +163,14 @@
         "patterns": [
           "Is 23 a prime number?",
           "Which numbers less than 50 are prime?",
-          "Can you tell me if 13 is prime or composite?"
+          "Can you tell me if 13 is prime or composite?",
+          "How many prime numbers are there between 1 and 50?"
         ],
         "responses": [
           "Yes, 23 is a prime number because it has no divisors other than 1 and itself.",
           "Prime numbers less than 50 are: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, and 47.",
-          "13 is a prime number as it has only two distinct positive divisors: 1 and 13."
+          "13 is a prime number as it has only two distinct positive divisors: 1 and 13.",
+          "The number of prime numbers between 1 and 50 is 15."  
         ]
       },
       {
@@ -183,7 +195,8 @@
         "patterns": [
           "How can I build a strong team?",
           "Any tips for fostering teamwork?",
-          "What makes a successful team?"
+          "What makes a successful team?",
+          "How to have efficient team-work in a team?"  
         ],
         "responses": [
           "Building trust among team members is crucial for a strong and united team.",
@@ -199,7 +212,8 @@
         "patterns": [
           "How can I support and encourage others?",
           "What can I do to uplift someone's spirits?",
-          "Tips for being a supportive friend?"
+          "Tips for being a supportive friend?",
+          "One simple thing that can have an impact on someone?"  
         ],
         "responses": [
           "Be a good listener and offer your empathy and understanding.",
@@ -215,7 +229,8 @@
         "patterns": [
           "How do I stay strong during tough times?",
           "Dealing with adversity, any advice?",
-          "Tips for overcoming challenges?"
+          "Tips for overcoming challenges?",
+          "Facing problems, suggestions?"  
         ],
         "responses": [
           "Remember that challenges are opportunities for growth and resilience.",
@@ -231,12 +246,14 @@
         "patterns": [
           "Explain what an isosceles triangle is.",
           "What is the definition of a right angle?",
-          "Tell me about the properties of a parallelogram."
+          "Tell me about the properties of a parallelogram.",
+          "What is a Polygon?"  
         ],
         "responses": [
           "An isosceles triangle is a triangle with at least two sides of equal length and two corresponding angles of equal measure.",
           "A right angle is an angle that measures exactly 90 degrees.",
-          "The properties of a parallelogram include opposite sides being parallel and congruent, and opposite angles being equal."
+          "The properties of a parallelogram include opposite sides being parallel and congruent, and opposite angles being equal.",
+          "A polygon is a closed two-dimensional figure made up of line segments and no curves. They are enclosed structures based on different lengths of sides and different angles."  
         ]
       },
       {
@@ -244,23 +261,30 @@
         "patterns": [
           "Solve the following puzzle: 3 + 3 * 6.",
           "Can you figure out 25 divided by 5 plus 3?",
-          "What's the missing number in this sequence: 2, 4, 6, __, 10?"
+          "What's the missing number in this sequence: 2, 4, 6, __, 10?",
+          "What is sum of squares of 1 to 5?",
+          "If the time is 12pm, how many hours is it until 6pm?"
         ],
         "responses": [
           "The solution to 3 + 3 * 6 is 21, following the order of operations (PEMDAS).",
           "25 divided by 5 plus 3 equals 8.",
-          "The missing number in the sequence is 8, as it follows an increment of 2."
+          "The missing number in the sequence is 8, as it follows an increment of 2.",
+          "The sum of squares of 1 to 5 is 55.",
+          "There is 6 hours till 6pm."  
         ]
       },
       {
         "tag": "shakespeare_poems",
         "patterns": [
-          "Read me a poem by Shakespeare.",
-          "Share a Shakespearean poem with me.",
-          "Let me hear a poem written by Shakespeare."
+          "Can you share a poem by Shakespeare?",
+          "Recite something from Shakespeare.",
+          "Do you know any Shakespeare poems?",
+          "Give me a sonnet by Shakespeare.",
+          "Tell me some lines from Shakespeare."
         ],
         "responses": [
-          "Certainly! Here's a beautiful poem by William Shakespeare:\n\nOver hill, over dale,\nThorough bush, thorough brier,\nOver park, over pale,\nThorough flood, thorough fire!\nI do wander everywhere,\nSwifter than the moon's sphere;\nAnd I serve the Fairy Queen,\nTo dew her orbs upon the green;\nThe cowslips tall her pensioners be;\nIn their gold coats spots you see;\nThose be rubies, fairy favours;\nIn those freckles live their savours;\nI must go seek some dewdrops here,\nAnd hang a pearl in every cowslip's ear."
+          "Certainly! Here's a beautiful poem by William Shakespeare:\n\nOver hill, over dale,\nThorough bush, thorough brier,\nOver park, over pale,\nThorough flood, thorough fire!\nI do wander everywhere,\nSwifter than the moon's sphere;\nAnd I serve the Fairy Queen,\nTo dew her orbs upon the green;\nThe cowslips tall her pensioners be;\nIn their gold coats spots you see;\nThose be rubies, fairy favours;\nIn those freckles live their savours;\nI must go seek some dewdrops here,\nAnd hang a pearl in every cowslip's ear.",
+          "Sure one of my favorites! \n\nShall I compare thee to a summer’s day?\nThou art more lovely and more temperate.\nRough winds do shake the darling buds of May,\nAnd summer’s lease hath all too short a date.\nSometime too hot the eye of heaven shines,\nAnd often is his gold complexion dimmed;\nAnd every fair from fair sometime declines,\nBy chance, or nature’s changing course, untrimmed;\nBut thy eternal summer shall not fade,\nNor lose possession of that fair thou ow’st,\nNor shall death brag thou wand’rest in his shade,\nWhen in eternal lines to Time thou grow’st.\n\tSo long as men can breathe, or eyes can see,\n\tSo long lives this, and this gives life to thee."
         ]
       }
     ]
