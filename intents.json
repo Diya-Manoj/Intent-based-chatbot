@@ -240,36 +240,18 @@
           "Believe in your ability to overcome obstacles; you are stronger than you think!"
         ]
       },
-    
-      {
-        "tag": "geometry_concepts",
-        "patterns": [
-          "Explain what an isosceles triangle is.",
-          "What is the definition of a right angle?",
-          "Tell me about the properties of a parallelogram.",
-          "What is a Polygon?"  
-        ],
-        "responses": [
-          "An isosceles triangle is a triangle with at least two sides of equal length and two corresponding angles of equal measure.",
-          "A right angle is an angle that measures exactly 90 degrees.",
-          "The properties of a parallelogram include opposite sides being parallel and congruent, and opposite angles being equal.",
-          "A polygon is a closed two-dimensional figure made up of line segments and no curves. They are enclosed structures based on different lengths of sides and different angles."  
-        ]
-      },
       {
         "tag": "math_puzzles",
         "patterns": [
-          "Solve the following puzzle: 3 + 3 * 6.",
-          "Can you figure out 25 divided by 5 plus 3?",
-          "What's the missing number in this sequence: 2, 4, 6, __, 10?",
-          "What is sum of squares of 1 to 5?",
+          "What is the next number in this sequence: 1, 4, 9, 16?",
+          "Can you solve 5 + 3 x 2?",
+          "What comes after 1, 1, 2, 3, 5 in Fibonacci?",
           "If the time is 12pm, how many hours is it until 6pm?"
         ],
         "responses": [
-          "The solution to 3 + 3 * 6 is 21, following the order of operations (PEMDAS).",
-          "25 divided by 5 plus 3 equals 8.",
-          "The missing number in the sequence is 8, as it follows an increment of 2.",
-          "The sum of squares of 1 to 5 is 55.",
+          "Here's the answer: 25.",
+          "The result is 11. Remember BODMAS!",
+          "The next Fibonacci number is 8.",
           "There is 6 hours till 6pm."  
         ]
       },
