@@ -7,7 +7,7 @@ import random
 # Load the saved model, tokenizer, and label encoder
 @st.cache_resource
 def load_model():
-    model = joblib.load("chatbot_model.pkl")
+    model = joblib.load("chatbot_model3.pkl")
     return model
 
 @st.cache_resource
